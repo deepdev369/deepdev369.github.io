@@ -6,10 +6,20 @@ body {
     line-height: 2em;
 }
 
-.home {
-    padding-left: 90em;
+.head {
+    margin-left: 20em;
+    padding-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
 }
-.gallery {
-    padding-left: 94em;
-    
+
+.head2 {
+    margin-left: 42em;
+    padding-top: 2em;
+    font-size: large;
+}
+
+.intro {
+    width: 1000px;
+    padding-left: 30em;
 }
