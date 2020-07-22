@@ -1,9 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/img/web.png);
+}
+
 body {
     background-color: black;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     line-height: 2em;
+}
+
+ul {
+    float:right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #ffffff
 }
 
 .head {
@@ -23,3 +47,4 @@ body {
     width: 1000px;
     padding-left: 30em;
 }
+
